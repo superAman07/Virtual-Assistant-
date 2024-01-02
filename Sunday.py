@@ -12,8 +12,6 @@ from Clap import MainClapExe
 MainClapExe()
 waitfortheanswer()
 
-# nltk.download("punkt")
-
 def speak(text):
     engine = pyttsx3.init() 
     Id = r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0'
