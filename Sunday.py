@@ -205,10 +205,8 @@ while True:
     if intent in intents:
         responses = intents[intent]['responses']
         response = random.choice(responses)
-        # print(f"AI Assistant: {response}")
         speak(response)
     else:
-        # print("AI Assistant: Sorry, I'm not sure how to respond to that.")
         speak("AI Assistant: Sorry, I'm not sure how to respond to that.")
 
 waitfortheanswer()
