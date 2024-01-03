@@ -10,7 +10,7 @@ warnings.simplefilter('ignore')
 from chatgpt import waitfortheanswer
 from Clap import MainClapExe
 MainClapExe()
-waitfortheanswer()
+
 
 def speak(text):
     engine = pyttsx3.init() 
@@ -213,9 +213,7 @@ while True:
         # print("AI Assistant: Sorry, I'm not sure how to respond to that.")
         speak("AI Assistant: Sorry, I'm not sure how to respond to that.")
 
-
-
-
+waitfortheanswer()
 
 
 
