@@ -179,8 +179,6 @@ for intent ,data in intents.items():
         training_data.append(pattern.lower())
         labels.append(intent)
 
-# print(training_data)
-# print(labels)
 
 Vectorizer = TfidfVectorizer(tokenizer=nltk.word_tokenize,stop_words="english",max_df=0.8, min_df=1)
 X_train = Vectorizer.fit_transform(training_data)
