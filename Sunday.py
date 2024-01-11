@@ -208,10 +208,4 @@ while True:
         speak(response)
     else:
         speak("AI Assistant: Sorry, I'm not sure how to respond to that.")
-
 waitfortheanswer()
-
-
-
-
-
